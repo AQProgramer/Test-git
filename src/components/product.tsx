@@ -1,12 +1,13 @@
-import { Component } from 'react';
+import React, { Component } from "react";
 
-
-
-class  extends React.Component<Props, State> {
-    state = { :  }
-    render() { 
-        return (  );
-    }
+class Product extends Component {
+  render() {
+    return (
+      <>
+        <h1>first react app</h1>
+      </>
+    );
+  }
 }
- 
-export default ;
+
+export default Product;
